@@ -1,0 +1,134 @@
+/*サイト全体のマージンを調整する*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*全体的なサイトの見栄えを整える*/
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/*背景画像を載せる*/
+header {
+  background-image: url("image/backglound.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom:40px;
+}
+
+/*#firstviewへのスタイル適用*/
+#firstveiw {
+  padding: 100px 0px 0px 30px;
+  text-align: left;
+}
+
+/*#firstviewの画像を調整する*/
+#firstveiw img {
+  max-width: 140px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  
+}
+
+/*文字に影つけてみる*/
+#firstveiw h1 {
+  letter-spacing: 0.15em;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+
+
+/*ヘッダーナビゲーションを配置する*/
+nav {
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+  text-align: center;
+  background: #000;
+}
+
+/* ヘッダーを固定する */
+nav{
+    position: fixed; 
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height: 30px;
+}
+
+
+/*ヘッダーナビの見栄えを整える*/
+nav ul li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+/*ヘッダーナビの見栄えを整える_要素の変更・微調整*/
+nav ul li a {
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+}
+
+
+/*.containerのスタイルを調整する*/
+.container {
+  margin: 2px auto 0;
+  height: 400px;
+  background-color: #fff;
+}
+
+/*リストのパディングを調整する*/
+section {
+  padding: 0  40px 0 ;
+}
+
+/*h2要素を整える*/
+section h2 {
+  padding:20px 0 0px 0 ;
+  text-align: left;
+  letter-spacing: 0.15em;
+}
+
+/*h3要素を整える*/
+section h3 {
+  padding:10px 0 0px 0 ;
+  margin: 0px 0 0 18px;
+  text-align: left ;
+  letter-spacing: 0.15em;
+}
+
+/*プロフィール要素を整える*/
+.profile{
+  padding:10px 0 10px 0 ;
+  margin: 0px 0 0 20px;
+  text-align: left ;
+  letter-spacing: 0.15em;
+}
+
+/*プロフィール要素を整える*/
+dl{
+  width:900px;
+}
+dt {
+  float:left;
+  clear:left;
+  width:120px;
+  margin: 10px 0 0 0px;
+}
+dd {
+  float:left;
+  width:600px;
+  margin: 10px 0 0 0px;
+}
+
+.footer {
+  padding: 10px 10px 0px 0px;
+  font-size: 93%;
+  text-align: right;
+  background-color: #000;
+  color: #999;
+}
