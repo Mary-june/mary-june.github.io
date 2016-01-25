@@ -1,0 +1,63 @@
+/*サイト全体のマージンを調整する*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*全体的なサイトの見栄えを整える*/
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+
+/*ヘッダーナビゲーションを配置する*/
+nav {
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+  text-align: center;
+  background: #000;
+}
+
+/* ヘッダーを固定する */
+nav{
+    position: fixed; 
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height: 30px;
+}
+
+/*ヘッダーナビの見栄えを整える*/
+nav ul li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+/*ヘッダーナビの見栄えを整える_要素の変更・微調整*/
+nav ul li a {
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+}
+
+#apps {
+  padding: 80px 0px 30px 30px;
+  text-align: left;
+}
+
+#apps img {
+  max-width: 300px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+.footer {
+  padding: 10px 10px 0px 0px;
+  font-size: 93%;
+  text-align: right;
+  background-color: #000;
+  color: #999;
+}
+
